@@ -46,6 +46,6 @@ onSubmit() {
    
       alert('sucess')    
 });
-this.loginForm.reset(); 
+    this.loginForm.reset(); 
 }
 }
