@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'lato-bold';
+     src: url('/assets/fonts/lato-bold.woff') format('woff'),
+          url('/assets/fonts/lato-bold.woff2') format('woff2'),
+  }
+  @font-face {
+    font-family: 'lato-regular';
+    src: url('/assets/fonts/lato-regular.woff') format('woff'),
+         url('/assets/fonts/lato-regular.woff2') format('woff2')
+  }
+ 
+  @font-face {
+    font-family: 'lato-semibold';
+    src: url('/assets/fonts/lato-semibold.woff') format('woff'),
+          url('/assets/fonts/lato-semibold.woff2') format('woff2')
+  }
+
+  $base-bold-font : 'lato-bold';
+  $base-regular-font : 'lato-regular';
+  $base-semibold-font : 'lato-semibold';
+
